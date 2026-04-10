@@ -1,5 +1,9 @@
 class Myname {
     public static void main(String[] args) {
-        System.out.println("My name is Karthik.");
+        System.out.println(1);
+        System.out.println(2);
+        System.out.println(3);
+        System.out.println(4);
+        System.out.println(5);
     }
 }
