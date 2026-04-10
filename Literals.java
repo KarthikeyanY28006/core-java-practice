@@ -1,15 +1,16 @@
-public class Literals {
+class LiteralExample {
     public static void main(String[] args) {
 
-        // Type Conversion (Automatic)
-        int a = 100;
-        double b = a;
+        int age = 23;              // integer literal
+        double salary = 45000.75; // double literal
+        char grade = 'A';         // char literal
+        String name = "Karthik";  // string literal
+        boolean isStudent = true; // boolean literal
 
-        // Type Casting (Manual)
-        double x = 45.67;
-        int y = (int) x;
-
-        System.out.println("Conversion: " + b);
-        System.out.println("Casting: " + y);
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(salary);
+        System.out.println(grade);
+        System.out.println(isStudent);
     }
 }
